@@ -46,53 +46,53 @@ graph TD
     E -- Manager Approval --> F[Execute Action: SMS, Social Media, etc.];
 ```
 
-##Technology Stack
+## Technology Stack
 Aura is built with a modern, open-source technology stack.
 
-Backend: Python
+#### Backend: Python
 
-API: FastAPI, Flask
+#### API: FastAPI, Flask
 
-Data Science: Pandas, NumPy, Scikit-learn, Prophet, TensorFlow/PyTorch
+#### Data Science: Pandas, NumPy, Scikit-learn, Prophet, TensorFlow/PyTorch
 
-LLM Integration: LangChain, Hugging Face Transformers
+#### LLM Integration: LangChain, Hugging Face Transformers
 
-Database: PostgreSQL, SQLite (for development)
+#### Database: PostgreSQL, SQLite (for development)
 
-Frontend (Prototype): Streamlit
+#### Frontend (Prototype): Streamlit
 
-Frontend (Production): React / Vue.js
+#### Frontend (Production): React / Vue.js
 
-Getting Started
+## Getting Started
 Follow these instructions to get a local copy up and running for development and testing purposes.
 
-Prerequisites
-Python 3.9+
+###Prerequisites
+#### 1) Python 3.9+
 
-Git
+#### 2) Git
 
-pip or conda for package management
+#### 3) pip or conda for package management
 
 ##Installation
-###1) the repository:
+### 1) the repository:
 `git clone [https://github.com/Vanshika-mahajan/aura-blood-inventory-ai.git](https://github.com/Vanshika-mahajan/aura-blood-inventory-ai.git)
 cd aura-blood-inventory-ai`
-###2)Create and activate a virtual environment:
+### 2)Create and activate a virtual environment:
 `python -m venv venv
 source venv/bin/activate ` # On Windows, use 'venv\Scripts\activate'
-###3)Install the required dependencies:
+### 3)Install the required dependencies:
 `pip install -r requirements.txt`
-###4)Set up environment variables:
+### 4)Set up environment variables:
 Create a .env file in the root directory by copying the example file.
 `cp .env.example .env`
 Fill in the necessary API keys or configuration details in your new .env file.
 ###5)Run the application:
 Example for running a Streamlit dashboard
 `streamlit run app/dashboard.py`
-##Project Roadmap
+## Project Roadmap
 This project is divided into four key phases. We are currently in Phase 1.
 
-###[x] Phase 1: Data Foundation & Synthesis (In Progress)
+#### [x] Phase 1: Data Foundation & Synthesis (In Progress)
 
 [x] Identify core data requirements
 
@@ -100,7 +100,7 @@ This project is divided into four key phases. We are currently in Phase 1.
 
 [ ] Set up database schema
 
-###[ ] Phase 2: Predictive Engine Development
+#### [ ] Phase 2: Predictive Engine Development
 
 [ ] Implement baseline forecasting models (SARIMA, Prophet)
 
@@ -108,7 +108,7 @@ This project is divided into four key phases. We are currently in Phase 1.
 
 [ ] Validate model accuracy and performance
 
-###[ ] Phase 3: Prescriptive Engine Integration
+#### [ ] Phase 3: Prescriptive Engine Integration
 
 [ ] Define actionable functions (e.g., send_sms, plan_drive)
 
@@ -116,7 +116,7 @@ This project is divided into four key phases. We are currently in Phase 1.
 
 [ ] Implement reasoning logic with function calling
 
-###[ ] Phase 4: Decision-Support Dashboard
+#### [ ] Phase 4: Decision-Support Dashboard
 
 [ ] Develop a backend API with FastAPI
 
@@ -124,12 +124,12 @@ This project is divided into four key phases. We are currently in Phase 1.
 
 [ ] Implement a feedback loop for recommendations
 
-##How to Contribute
+## How to Contribute
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
 Please see the CONTRIBUTING.md file for details on our code of conduct and the process for submitting pull requests to us.
 
-##License
+## License
 Distributed under the MIT License. See LICENSE for more information.
 ###Acknowledgments
 UCI Machine Learning Repository for the foundational dataset on donor behavior.
