@@ -131,7 +131,7 @@ Please see the CONTRIBUTING.md file for details on our code of conduct and the p
 
 ## License
 Distributed under the MIT License. See LICENSE for more information.
-###Acknowledgments
+### Acknowledgments
 UCI Machine Learning Repository for the foundational dataset on donor behavior.
 
 The open-source community for providing the tools that make this project possible.
