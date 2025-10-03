@@ -66,14 +66,14 @@ Aura is built with a modern, open-source technology stack.
 ## Getting Started
 Follow these instructions to get a local copy up and running for development and testing purposes.
 
-###Prerequisites
+## Prerequisites
 #### 1) Python 3.9+
 
 #### 2) Git
 
 #### 3) pip or conda for package management
 
-##Installation
+## Installation
 ### 1) the repository:
 `git clone [https://github.com/Vanshika-mahajan/aura-blood-inventory-ai.git](https://github.com/Vanshika-mahajan/aura-blood-inventory-ai.git)
 cd aura-blood-inventory-ai`
